@@ -1,0 +1,13 @@
+# Environment variables / passwords
+.env
+**/.env
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# macOS
+.DS_Store
+
+# Vite build
+dist/
