@@ -1,5 +1,9 @@
+
 import Signup from "./components/Signup";
 import Login from "./components/Login";
+import CreateProject from "./CreateProject";
+import ViewProjects from "./ViewProjects";
+import ManageMembers from "./ManageMembers";
 import "./App.css";
 
 function App() {
@@ -9,6 +13,12 @@ function App() {
                 <Signup />
                 <Login />
             </div>
+
+            <CreateProject />
+
+            <ViewProjects />
+
+            <ManageMembers />
         </div>
     );
 }
